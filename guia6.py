@@ -259,16 +259,10 @@ def cuenta_regresiva(numero: int):
 #print(cuenta_regresiva(10))
         
  
-#ejercicio 6.5 
-def viaje_en_el_tiempo(año_de_partida: int, x_año_de_llegada: int) -> str:
+#ejercicio 6.5 ????!!!!
+#def viaje_en_el_tiempo(año_de_partida: int, x_año_de_llegada: int) -> str:
     # requiere año_de_partida_ > x_año_de_llegada
-    res = año_de_partida - x_año_de_llegada
     
-    if res == 1:
-        imprimir = "Viajo un año al pasado, estamos en el año " + str(x_año_de_llegada)        
-        return imprimir
-
-#print(viaje_en_el_tiempo(2025, 2023))
 
 #ejercicio 6.6  NI IDEA
 
@@ -300,11 +294,85 @@ def cuenta_regresiva_con_for(comienza_en: int):
     print("Despegue")
 #print(cuenta_regresiva_con_for(5))
 
-#ejercicio 7.5
-#def viaje_en_el_tiempo():
+#ejercicio 7.5  ?????#
 
+#----------------------------------------------------------
 
+#ejercicio 8
+# x = 5
+# y = 7
+
+# ejrcicio 8.1
+# x = x + y
+# x = 5 + 7
+
+# x = 12
+# y = 7
+
+#ejercicio 8.2
+# z = x + y
+# y = z * 2
+
+# z = 12
+# y = 12 * 2
+# y = 24
+
+# x = 5
+# y = 24
+# z = 12
+
+#ejercicio 8.3
+# x = "hora"
+# y = x * 2
+
+# x = "hora"
+# y = "horahora"
+
+#ejercicio 8.4
+# x = False
+# res = not(x)
+
+# x = False
+# res = True
+
+#ejercicio 8.5
+# x = False
+# x = not(x)
+
+# x = True
+
+#ejercicio 8.6
+# x = True
+# y = False
+
+# res = x and y
+# x = res and x
+
+# res = False
+# x = False
+
+#--------------------------------------------------------
+
+#ejercicio 9
+def rt(x: int, g: int)-> int: 
+    g = g + 1 
+    return x + g 
     
+g: int = 0 
+def ro(x: int)-> int: 
+    global g 
+    g = g + 1 
+    return x + g
+
+# print(rt(1, 0)) #2
+# print(rt(1, 0)) #2
+# print(rt(1, 0)) #2
+
+# print(ro(1)) #2
+# print(ro(1)) #3
+# print(ro(1)) #4
+
+
 
      
 
