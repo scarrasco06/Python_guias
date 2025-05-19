@@ -29,3 +29,19 @@ def pertenece_3(s: [int], e: int) -> bool:
     
 print(pertenece_3([0, 1, 2, 3, 4], 9))
 
+#ejercicio 1.2
+def divide_a_todos(s: [int], e: int) -> bool:
+    i: int
+    i = 0
+    while i < len(s):
+        res = s[i] % e == 0
+        print (res)
+        i += 1
+print(divide_a_todos([2, 4, 5, 7], 2))
+
+#ejercicio 1.3
+def suma_total(s:[int]) -> int:
+    res =  
+        
+           
+
